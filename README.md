@@ -1,8 +1,16 @@
 # insightdata
-This Repository contains solution to Insight Data Engineering Fellowship Challenge,( Download Zip to run.sh execute, have followed directory structure as mentioned.)
+This Repository contains solution to Insight Data Engineering Fellowship Challenge,
+( Kindly test using the provided Directory Structure or Download insightdata.Zip which has same directory structure)
 
 # The Challenge and its Proposed Solution
 
+To filter individual campaign donations based on zipcode and date, is one aspect and other challenges include calculating RunningMedian and TotalContribution, TotalCount for each entry from input file, The input may be large and may have dirty values for required fields. 
+
+Solution: Divide code in three processes: Preprocessor, Processor, Output Processor to distinguish between  critical tasks at every stage, read clean values and use further only after checking boundary conditions. 
+
+Test at every stage and maintain data flow. Optimize space complexity by using efficient data structures like Heap for Calculating RunningMedian and Hash Maps to store key value pairs, which are more efficient than using index files, as index files might require more traverslas for the same operation.
+
+Output Calculated values Line by Line and update running values with every iteration. 
 
 # Main Class: ReadTextFile.java
 
