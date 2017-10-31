@@ -17,10 +17,10 @@ Output Processor: includes files->AppendToFileExample.java, WriteDate.java
 
 # PreProcessor Design 
 Considerations
+Discards Null values and takes care of garbage values from input file.
 
-Working
 
-Output
+Output: Clean variables for CMTE ID, ZIP,DATE,AMOUNT
 
 # Processor Design and Running Median Calculation
 Considerations
