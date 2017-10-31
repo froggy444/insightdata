@@ -1,5 +1,5 @@
 # insightdata
-This Repository contains solution to Insight Data Engineering Fellowship Challenge
+This Repository contains solution to Insight Data Engineering Fellowship Challenge,( Download Zip to run.sh execute, have followed directory structure as mentioned.)
 
 # The Challenge and its Proposed Solution
 
